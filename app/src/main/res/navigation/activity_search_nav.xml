@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_search_nav"
+            app:startDestination="@id/fragmentSearch">
+
+    <fragment android:id="@+id/fragmentSearch" android:name="com.ucsdextandroid2.android2final.Search.SearchFragment"
+              android:label="FragmentSearch" tools:layout="@layout/fragmentsearch"/>
+
+    <fragment android:id="@+id/savedFragment" android:name="com.ucsdextandroid2.android2final.Saved.SavedFragment"
+              android:label="fragmentsaved" tools:layout="@layout/fragmentsaved"/>
+
+</navigation>
